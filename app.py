@@ -55,4 +55,6 @@ app.register_blueprint(publicacion_blueprint)
 # app.register_blueprint(notificacion_blueprint)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+        port="0.0.0.0",
+    )
